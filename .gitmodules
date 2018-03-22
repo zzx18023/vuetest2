@@ -1,0 +1,6 @@
+[submodule "dist_prod"]
+	path = dist_prod
+	url = https://github.com/zzx18023/vuetest2-dist_prod.git
+[submodule "dist_test"]
+	path = dist_test
+	url = https://github.com/zzx18023/vuetest2-dist_test.git

@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  /*内边距和边框不再会增加它的宽度*/
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: "微软雅黑", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ul {
+  list-style: none;
+  /*li不显示小点*/
+  padding-left: 0;
+}
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+button,
+input,
+textarea {
+  font-size: inherit;
+  line-height: inherit;
+}
+/*# sourceMappingURL=base.css.map */
